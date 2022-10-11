@@ -108,10 +108,8 @@ function solve(){
         }
         raw.push(x)
     }
-    console.log(raw)
     if(solver(sudoku)){
         ans=sudoku
-        console.log(ans)
         let k=0
         for (let i = 0; i < 9; i++) {
             for (let j = 0; j < 9; j++) {
