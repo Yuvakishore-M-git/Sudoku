@@ -101,9 +101,9 @@ function solve(){
         sudoku.push(x)
     }
     raw=new Array()
-    for(let i=0;i<9;i++){
+    for (let i = 0; i < 9; i++) {
         let x=new Array()
-        for(let j=0;j<9;j++){
+        for (let j = 0; j < 9; j++) {
             x.push(sudoku[i][j])
         }
         raw.push(x)
