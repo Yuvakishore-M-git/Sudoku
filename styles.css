@@ -4,11 +4,8 @@ input{
 }
 @media screen and (max-width: 540px) {
     input{
-        cursor: pointer; width: 25px;height: 25px;text-align: center;caret-color: transparent;
+        cursor: pointer; width: 20px;height: 25px;text-align: center;caret-color: transparent;
         font-size: 18px;
-    }
-    .a3{
-        margin-right: 50px;
     }
 }
 
@@ -23,6 +20,16 @@ input{
         cursor: pointer; width: 28px;height: 28px;text-align: center;caret-color: transparent;
         font-size: 20px;
     }
+    .a3{
+        margin-right: 50px;
+    }
+}
+
+.a3{
+    margin-right: 50px;
+}
+table{
+    border-spacing: 0px;
 }
 
 td{
